@@ -1,0 +1,33 @@
+body{
+  max-width: 1700px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: aliceblue;
+}
+input{
+  width: 100px;
+  margin-bottom: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 5px auto;
+  padding: 20px;
+  background-color: rgb(83, 137, 184);
+}
+#female{
+  margin-bottom: 10px;
+}
+#physical-activity{
+  width: 300px;
+  margin-bottom: 20px;
+}
+#infoResult:after{
+  content: " ккал";
+}
+#result{
+  display: none;
+  color: aliceblue;
+}
